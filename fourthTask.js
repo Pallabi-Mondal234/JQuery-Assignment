@@ -1,0 +1,17 @@
+$(document).ready(function(){
+  $(".top").click(function(){
+    $(this).css("background-color","green");
+  }),
+  $(".Sidebar").click(function(){
+    $(this).text("Leftbar")
+  }),
+  $(".content-bottom").click(function(){
+    $(".content-top").fadeOut("slow");
+  }),
+  $(".end").click(function(){
+    $(".popup").css("display","block");
+  }),
+  $(".close-btn").click(function(){
+    $(".popup").css("display","none")
+  })  
+})
